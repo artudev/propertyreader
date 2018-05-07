@@ -8,7 +8,7 @@ android {
 	}
 
 	defaultConfig {
-		applicationId "com.rightmove.propertyreader"
+		applicationId "com.sample.propertyreader"
 		minSdkVersion 17
 		targetSdkVersion 27
 		versionCode 1
