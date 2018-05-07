@@ -1,0 +1,27 @@
+<resources>
+	<string name="app_name">Property Reader</string>
+	<string name="tv_task_1_label">Task 1:</string>
+	<string name="tv_task_2_label">Task 2:</string>
+	<string name="btn_show_list">Show list</string>
+
+	<string name="task_1_text">The average price in the postcode outward %1$s is %2$s</string>
+	<string name="task_2_text">The difference in average prices between %1$s and %2$s properties is
+		%3$s
+	</string>
+
+	<string name="item_price">£%1$s</string>
+	<plurals name="item_bed">
+		<item quantity="one">%d bed</item>
+		<item quantity="other">%d beds</item>
+	</plurals>
+	<plurals name="item_bathroom">
+		<item quantity="one">%d bathroom</item>
+		<item quantity="other">%d bathrooms</item>
+	</plurals>
+
+	<string name="type_mansion">Mansion</string>
+	<string name="type_terraced">Terraced House</string>
+	<string name="type_detached">Detached House</string>
+	<string name="type_flat">Flat</string>
+
+</resources>

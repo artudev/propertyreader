@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/tvTask1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/tv_task_1_label"
+		android:textSize="12sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<TextView
+		android:id="@+id/tvAveragePrice"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text=""
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvTask1"/>
+
+	<TextView
+		android:id="@+id/tvTask2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/tv_task_2_label"
+		android:textSize="12sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvAveragePrice"/>
+
+	<TextView
+		android:id="@+id/tvDiffAveragePrice"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text=""
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvTask2"/>
+
+	<Button
+		android:id="@+id/btnShowList"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/btn_show_list"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvDiffAveragePrice"/>
+
+</android.support.constraint.ConstraintLayout>
